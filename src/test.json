@@ -1,0 +1,346 @@
+{
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 516,
+   category: 'console_error',
+   logType: 'Error',
+   logInfo: '错误类别: console_error\r\n' +
+     '日志信息: 123123\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ },
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 472,
+   category: 'vue_error',
+   logType: 'Warning',
+   logInfo: '错误类别: vue_error\r\n' +
+     '日志信息: {"message":"ss is not defined","stack":"ReferenceError: ss is not defined\\n
+    at Cn.created (http://127.0.0.1:5500/test/index.html:85:17)\\n    at Be (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:11407)\\n    at Qt (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:25438)\\n    at Cn.t._init (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:33078)\\n    at new Cn (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:30457)\\n    at http://127.0.0.1:5500/test/index.html:73:18","info":"created hook"}\r\n' +
+     'url: \r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 826,
+   category: 'js_error',
+   logType: 'Warning',
+   logInfo: '错误类别: js_error\r\n' +
+     '日志信息: Uncaught ReferenceError: ss is
+ not defined\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '错误行号: 109\r\n' +
+     '错误列号: 9\r\n' +
+     '错误栈: ReferenceError: ss is not defined\n' +
+     '    at http://127.0.0.1:5500/test/index.html:109:9\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 726,
+   category: 'resource_error',
+   logType: 'Warning',
+   logInfo: '错误类别: resource_error\r\n' +
+     '日志信息: 加载 IMG 资源错误\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '其他错误: {}\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 651,
+   category: 'promise_error',
+   logType: 'Warning',
+   logInfo: '错误类别: promise_error\r\n' +
+     '日志信息: Error: promise error 22222222222\r\n' +
+     'url: \r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 121,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:40:20","pageId":"page_0001","networkSpeed":"1574.20","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML,
+ like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 668,
+   category: 'console_error',
+   logType: 'Error',
+   logInfo: '错误类别: console_error\r\n' +
+     '日志信息: 333333333333333333\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 748,
+   category: 'resource_error',
+   logType: 'Warning',
+   logInfo: '错误类别: resource_error\r\n' +
+     '日志信息: 加载 IMG 资源错误\r\n' +
+     'url: https%3A%2F%2Fpic.xiaohuochai.site%2Fblog%2FchromePerformance2_error.png\r\n' +
+     '其他错误: {}\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome
+ （版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）
+ ","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko)
+ Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 898,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:41:31","pageId":"page_0001","networkSpeed":"1009.10","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 729,
+   category: 'console_error',
+   logType: 'Error',
+   logInfo: '错误类别: console_error\r\n' +
+     '日志信息: 123123\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 557,
+   category: 'resource_error',
+   logType: 'Warning',
+   logInfo: '错误类别: resource_error\r\n' +
+     '日志信息: 加载 IMG 资源错误\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '其他错误: {}\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 819,
+   category: 'promise_error',
+   logType: 'Warning',
+   logInfo: '错误类别: promise_error\r\n' +
+     '日志信息: Error: promise error 22222222222\r\n' +
+     'url: \r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 430,
+   category: 'js_error',
+   logType: 'Warning',
+   logInfo: '错误类别: js_error\r\n' +
+     '日志信息: Uncaught ReferenceError: ss is not defined\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '错误行号: 109\r\n' +
+     '错误列号: 9\r\n' +
+     '错误栈: ReferenceError: ss is not defined\n' +
+     '    at http://127.0.0.1:5500/test/index.html:109:9\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 857,
+   category: 'vue_error',
+   logType: 'Warning',
+   logInfo: '错误类别: vue_error\r\n' +
+     '日志信息: {"message":"ss is not defined","stack":"ReferenceError: ss is not defined\\n    at Cn.created (http://127.0.0.1:5500/test/index.html:85:17)\\n    at Be (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:11407)\\n    at Qt (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:25438)\\n    at Cn.t._init (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:33078)\\n    at new Cn (https://cdn.jsdelivr.net/npm/vue@2.6.14:6:30457)\\n    at http://127.0.0.1:5500/test/index.html:73:18","info":"created hook"}\r\n' +
+     'url: \r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 632,
+   category: 'resource_error',
+   logType: 'Warning',
+   logInfo: '错误类别: resource_error\r\n' +
+     '日志信息: 加载 IMG 资源错误\r\n' +
+     'url: https%3A%2F%2Fpic.xiaohuochai.site%2Fblog%2FchromePerformance2_error.png\r\n' +
+     '其他错误: {}\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   filterTwo: '机票',
+   module: 'Touch站',
+   filterOne: 457,
+   category: 'console_error',
+   logType: 'Error',
+   logInfo: '错误类别: console_error\r\n' +
+     '日志信息: 333333333333333333\r\n' +
+     'url: http%3A%2F%2F127.0.0.1%3A5500%2Ftest%2Findex.html\r\n' +
+     '其他错误: ""\r\n' +
+     '设备信息: {"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}',
+   deviceInfo: '{"deviceType":"PC","OS":"Windows","OSVersion":"10.0","screenHeight":1080,"screenWidth":2560,"language":"zh_CN","netWork":"4g","orientation":"竖屏","browserInfo":"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）","fingerprint":"ebed2cef","userAgent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 762,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:42:15","pageId":"page_0001","networkSpeed":"1326.57","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 121,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:43:15","pageId":"page_0001","networkSpeed":"1357.07","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 21,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:44:15","pageId":"page_0001","networkSpeed":"1242.79","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 326,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:45:15","pageId":"page_0001","networkSpeed":"1380.88","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 28,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:46:15","pageId":"page_0001","networkSpeed":"1262.73","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 67,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:47:15","pageId":"page_0001","networkSpeed":"1364.91","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 387,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:48:15","pageId":"page_0001","networkSpeed":"1229.84","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 698,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:49:15","pageId":"page_0001","networkSpeed":"1431.09","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 240,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:50:15","pageId":"page_0001","networkSpeed":"1364.91","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 746,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:51:15","pageId":"page_0001","networkSpeed":"1422.47","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 639,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:52:15","pageId":"page_0001","networkSpeed":"1349.31","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 421,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:53:15","pageId":"page_0001","networkSpeed":"1485.09","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 433,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:54:15","pageId":"page_0001","networkSpeed":"1304.58","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
+ {
+   module: 'Touch站',
+   filterOne: 'page_0001',
+   filterTow: 622,
+   category: 'network_speed',
+   logType: 'Info',
+   logInfo: '{"curTime":"2021-08-14 15:55:16","pageId":"page_0001","networkSpeed":"1389.00","deviceInfo":"{\\"deviceType\\":\\"PC\\",\\"OS\\":\\"Windows\\",\\"OSVersion\\":\\"10.0\\",\\"screenHeight\\":1080,\\"screenWidth\\":2560,\\"language\\":\\"zh_CN\\",\\"netWork\\":\\"4g\\",\\"orientation\\":\\"竖屏\\",\\"browserInfo\\":\\"Chrome（版本: 91.0.4472.164&nbsp;&nbsp;内核: Blink）\\",\\"fingerprint\\":\\"ebed2cef\\",\\"userAgent\\":\\"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36\\"}"}'
+ }
