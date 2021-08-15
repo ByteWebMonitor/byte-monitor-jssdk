@@ -26,12 +26,22 @@ class Performance extends BaseMonitor {
                 pageId:this.pageId,
             };
             console.log(result);
-            let data = `当前URL为${window.location.href}`
-            data +=`重定向时间：${result.performance.redirectTime}\n`
-            data +=`DNS查询时间：${result.performance.dnsTime}\n`
-            data +=`页面资源传送时间：${result.performance.ttfbTime}\n`
-            data +=`页面加载完成时间：${result.performance.reqTime}\n`
-            data +=`用户等待总时间：${result.performance.loadPageTime}\n`
+            // let data = `当前URL为${window.location.href}`
+            // data +=`重定向时间：${result.performance.redirectTime}\n`
+            // data +=`DNS查询时间：${result.performance.dnsTime}\n`
+            // data +=`页面资源传送时间：${result.performance.ttfbTime}\n`
+            // data +=`页面加载完成时间：${result.performance.reqTime}\n`
+            // data +=`用户等待总时间：${result.performance.loadPageTime}\n`
+            let data = {
+                url:window.location.href,
+                redirectTime: result.performance.redirectTime,
+                dnsTime: result.performance.dnsTime,
+                ttfbTime: result.performance.ttfbTime,
+                reqTime: result.performance.reqTime,
+                loadPageTime: result.performance.loadPageTime,
+                user_id: localStorage.getItem('ps_markUv'),
+                time:new Date()
+            }
             localStorage.setItem("page_performance",JSON.stringify(data));
             this.clearPerformance();
             BaseMonitor.queueUpload()

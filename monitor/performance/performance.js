@@ -11,20 +11,13 @@ const pagePerformance = {
             }
             var t = window.performance.timing;
             var times = {};
-            // var loadTime = t.loadEventEnd - t.loadEventStart;
-            // if(loadTime < 0) {
-            //     setTimeout(function(){
-            //         pagePerformance.getTiming();
-            //     }, 200);
-            //     return;
-            // }
             //【重要】重定向的时间
-            times.redirectTime = (t.redirectEnd - t.redirectStart).toFixed(2);
+            times.redirectTime = (t.redirectEnd - t.redirectStart);
             //【重要】DNS 查询时间
-            times.dnsTime = (t.domainLookupEnd - t.domainLookupStart).toFixed(2);
+            times.dnsTime = (t.domainLookupEnd - t.domainLookupStart);
             //【重要】读取页面第一个字节的时间
             //【原因】这可以理解为用户拿到你的资源占用的时间
-            times.ttfbTime = (t.responseStart - t.navigationStart).toFixed(2);
+            times.ttfbTime = (t.responseStart - t.navigationStart);
             //【重要】内容加载完成的时间
             //【原因】页面内容经过 gzip 压缩了么，静态资源 css/js 等压缩了么？
             times.reqTime = t.responseEnd - t.responseStart

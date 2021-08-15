@@ -3,20 +3,22 @@ import jsError from './error/jsError'
 import Perfomance from './performance/index'
 import './lib/extends'
 
+import BaseMonitor from './lib/base'
+
 class Monitor{
    /*/
    */
    constructor(options){
       if(!options) options = {}
-      this.ajaxError = options.ajaxError
-      this.jsError = options.jsError
-      this.isPerformance = options.isPerformance
-      this.ajaxError && new AjaxError(options).registerError();
-      this.jsError  && new jsError(options).registerError();
       
-      if(this.isPerformance){
+      if(typeof options.ajaxError == "undefined") options.ajaxError = true
+      if(typeof options.jsError == "undefined") options.jsError = true
+
+      options.ajaxError && new AjaxError(options).registerError();
+      options.jsError  && new jsError(options).registerError();
+      
+      if(options.isPerformance){
          window.addEventListener("beforeunload", ()=>{
-            console.log('load');
             new Perfomance(options).record()
          });
       }
@@ -25,4 +27,4 @@ class Monitor{
 }
 export default Monitor
 
-//if(typeof options.ajaxError == "undefined") options.ajaxError = true
+// 

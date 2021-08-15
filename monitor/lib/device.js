@@ -549,7 +549,9 @@ var DeviceInfo = (function() {
                     netWork: MethodLibrary.getNetwork(), // 联网类型
                     orientation: MethodLibrary.getOrientationStatu(), // 横竖屏
                     browserInfo: MethodLibrary.getBrowserInfo(), // 浏览器信息
-                    fingerprint: MethodLibrary.createFingerprint(params.domain), // 浏览器指纹
+                    user_id: localStorage.getItem('ps_markUv'),
+                    time:new Date()
+                    // fingerprint: MethodLibrary.createFingerprint(params.domain), // 浏览器指纹
                     // userAgent: VariableLibrary.navigator.userAgent // 包含 appCodeName,appName,appVersion,language,platform 等
                 }
                 if (!params.info || params.info.length == 0) {
