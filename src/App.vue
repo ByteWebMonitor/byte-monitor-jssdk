@@ -1,9 +1,13 @@
 <template>
 	<div id="app">
+		<img alt="logo" src="http://funx.site/resource/junk/a.jpg" />
+		<img alt="logo" src="https://pic.xiaohuochai.site/blog/chromePerformance2_error.png" />
 		<div v-for="str in datas" :key="str">
 			<img alt="Vue logo" src="./assets/logo.png" />
 			<HelloWorld msg="Welcome to Your Vue.js App" />
+			
 		</div>
+		
 	</div>
 </template>
 
@@ -14,21 +18,16 @@ export default {
 	name: "App",
 	data(){
 		return{
-			datas:['1','2','3','3','3','3','3','3','3','3','3','3','3']
+			datas:['1','2','3']
 		}
 	},
 	components: {
 		HelloWorld,
 	},
 	created() {
+		vue错误测试
 		// test1
-		this.$ajax
-			.post("api/x")
-			.then((response) => {
-				// console.log(response);
-			}).catch((response) => {
-				// console.log(response);
-			});
+		
 		// test2
 		// this.$ajax
 		// 	.post("api/success")
@@ -39,6 +38,15 @@ export default {
 		// 	});
 
 	},
+	mounted(){
+		this.$ajax
+			.post("api/x")
+			.then((response) => {
+				// console.log(response);
+			}).catch((response) => {
+				// console.log(response);
+			});
+	}
 };
 </script>
 

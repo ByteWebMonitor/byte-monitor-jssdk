@@ -13,7 +13,7 @@ class jsError extends BaseMonitor{
          this.error_row = lineno
          this.error_col = colno
          this.error_extra = error
-         this.recordError()
+         this.recordError(this.isTest)
          
       }
 	}

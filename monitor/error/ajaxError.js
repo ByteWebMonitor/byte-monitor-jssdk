@@ -17,7 +17,7 @@ class AjaxError extends BaseMonitor {
             status: event.target.status,
             statusText: event.target.statusText           
          }
-         this.recordError()
+         this.recordError(this.isTest)
          // console.log(event);
       }
 		XMLHttpRequest.prototype.send = function() {
