@@ -9,8 +9,8 @@ Vue.prototype.$ajax = axios;
 new Monitor({
 	vue: Vue,
 	isTest: true,
+	app_id:"abcdabcd",
 	reportUrl: "http://127.0.0.1:3030",
-	name: "测试网站",
 });
 
 new Vue({

@@ -15,11 +15,14 @@ class resourceError extends BaseMonitor {
 				}
 				this.type = "vue_error";
 				this.error_info = error.message;
-				this.url = error.stack;
-				this.error_extra = info;
+				this.error_url = '组件名'+metaData.componentName
+            this.error_extra = error.stack;
+            console.dir(error)
+            console.dir(vm)
+            console.dir(info)
 				this.recordError(this.isTest);
-			} catch (error) {
-				console.log("资源加载收集异常", error);
+			} catch (e_error) {
+				console.log("资源加载收集异常", e_error);
 			}
 		};
 	}

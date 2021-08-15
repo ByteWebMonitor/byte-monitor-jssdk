@@ -17,9 +17,9 @@ class resourceError extends BaseMonitor{
                
             this.type = 'resource_error'
             this.error_info = `加载${target.tagName}资源失败`
-            this.url = target.src || target.href;
+            this.error_url = target.src || target.href;
             this.error_extra = target
-            
+            console.log(event);
             this.recordError(this.isTest)
          } catch (error) {
             console.log("资源加载收集异常",error);

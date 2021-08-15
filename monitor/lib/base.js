@@ -20,11 +20,12 @@ class BaseMonitor {
       this.type = "noname_error";
       this.error_info = ''
       this.error_url = ''
-      this.error_row = ''
-      this.error_col = ''
+      this.error_row = 0
+      this.error_col = 0
       this.error_extra = ''
       this.isTest = true
 
+      this.app_id = '114514114514abc'
       if(BaseMonitor.deviceInfo == '')
          BaseMonitor.deviceInfo = DeviceInfo.getDeviceInfo()
    }
@@ -38,6 +39,8 @@ class BaseMonitor {
          error_col : this.error_col,
          error_extra : this.error_extra,
          user_id: localStorage.getItem('ps_markUv'),
+         app_id:this.app_id,
+         amount:1,
          time:new Date()
       }
       if(isTest === true){

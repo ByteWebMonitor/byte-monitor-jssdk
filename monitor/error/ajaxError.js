@@ -9,10 +9,12 @@ class AjaxError extends BaseMonitor {
          // console.log(event);
          if(!event || ! event.currentTarget || event.currentTarget.status==200) return
          this.type = "ajax_error"
-         this.error_info = event.target.response
+         
+         this.error_info = String(event.target.response)
+         var text = /<pre>(.*)<\/pre>/.exec(this.error_info)[1]
+         if(text !== '')
+            this.error_info = text
          this.error_url = event.target.responseURL
-         this.error_row = 0
-         this.error_col = 0
          this.error_extra = {
             status: event.target.status,
             statusText: event.target.statusText           
