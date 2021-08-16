@@ -35,17 +35,17 @@ export default {
 		HelloWorld,
 	},
 	created() {
-		vue错误测试
+		this.$ajax
+			.post("api/success")
+			.then((response) => {
+				// console.log(response);
+			}).catch((response) => {
+				// console.log(response);
+			});
 		// test1
 		
 		// test2
-		// this.$ajax
-		// 	.post("api/success")
-		// 	.then((response) => {
-		// 		// console.log(response);
-		// 	}).catch((response) => {
-		// 		// console.log(response);
-		// 	});
+		
 
 	},
 	mounted(){

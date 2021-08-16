@@ -1,18 +1,22 @@
 const express = require("express");
 const app = express();
+var bodyParser = require('body-parser')
+// app.use(bodyParser.urlencoded({ extended: false }))
+
+app.use(bodyParser.json())
 app.use(require("cors")());
-/*
-    origin:['http://localhost:8083'],
-    methods:['GET','POST'],
-    alloweHeaders:['Conten-Type', 'Authorization']
-*/
-app.use(express.json());
+// app.use(express.json());
 
 app.use(require("./upload"))
-
-app.listen(3030,'0.0.0.0', () => {
+app.post("/api/uploadErrors", (req, res) => {
+    console.log('/api/uploadErrors');
+    console.log(req.body)
+    res.send()
+ })
+app.listen(3031,'0.0.0.0', () => {
    console.log("success");
 });
+
 
 
 

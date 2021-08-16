@@ -6,7 +6,6 @@ import resourceError from './error/resourceError'
 import Perfomance from './performance/index'
 import './lib/extends'
 
-
 class Monitor{
    /*/
    */
@@ -15,11 +14,11 @@ class Monitor{
       
       if(typeof options.ajaxError == "undefined") options.ajaxError = true
       if(typeof options.jsError == "undefined") options.jsError = true
-      if(typeof options.vueError == "undefined") options.vueError = true
+      // if(typeof options.vueError == "undefined") options.vueError = true
       if(typeof options.promiseError == "undefined") options.promiseError = true
       if(typeof options.resourceError == "undefined") options.resourceError = true
       if(typeof options.isPerformance == "undefined") options.isPerformance = true
-      if(typeof options.vue == "undefined") options.vue = true
+      if(typeof options.vue == "undefined") options.vueError = false
 
       options.ajaxError && new AjaxError(options).registerError();
       options.jsError  && new jsError(options).registerError();
@@ -32,6 +31,9 @@ class Monitor{
             new Perfomance(options).record()
          });
       }
+      setTimeout(()=>{
+         new Perfomance(options).record()
+      },1500)
          
    }
 }

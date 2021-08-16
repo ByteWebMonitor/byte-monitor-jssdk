@@ -3,7 +3,7 @@
  */
 import DeviceInfo from "./device";
 import '../lib/extends'
-import axios from 'axios'
+import {ajax} from './ajax'
 import md5 from 'js-md5'
 class BaseMonitor {
    static queuePush(obj){
@@ -16,12 +16,24 @@ class BaseMonitor {
       }
    }
    static queueUpload(){
+      ajax({
+         url:'/uploadErrors',
+         data:BaseMonitor.queue,
+      })
+      ajax({
+         url:'/uploadPerformance',
+         data:JSON.parse(localStorage.getItem("page_performance")),
+      })
+      ajax({
+         url:'/uploadDevice',
+         data:BaseMonitor.deviceInfo,
+      })
       // 错误上报
-      axios.post(this.reportUrl,BaseMonitor.queue)
+      // axios.post(this.reportUrl,BaseMonitor.queue)
       // 设备上报
-      axios.post(this.reportUrl, BaseMonitor.deviceInfo)
+      // axios.post(this.reportUrl, BaseMonitor.deviceInfo)
       // 性能上报
-      axios.post(this.reportUrl, JSON.parse(localStorage.getItem("page_performance")))
+      // axios.post(this.reportUrl, JSON.parse(localStorage.getItem("page_performance")))
    }
    constructor(params){
       this.reportUrl = params.reportUrl

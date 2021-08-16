@@ -11,7 +11,8 @@ class AjaxError extends BaseMonitor {
          this.type = "ajax_error"
          
          this.error_info = String(event.target.response)
-         var text = /<pre>(.*)<\/pre>/.exec(this.error_info)[1]
+         var text = this.error_info
+         // var text = /<pre>(.*)<\/pre>/.exec(this.error_info)[1]
          if(text !== '')
             this.error_info = text
          this.error_url = event.target.responseURL
