@@ -2,10 +2,18 @@
  * 处理传来的错误信息并上报
  */
 import DeviceInfo from "./device";
+import '../lib/extends'
 import axios from 'axios'
+import md5 from 'js-md5'
 class BaseMonitor {
    static queuePush(obj){
-      BaseMonitor.queue.push(obj)
+      
+      var index = BaseMonitor.queue.indexOfAttr(obj, 'hash')
+      if(index>=0){
+         BaseMonitor.queue[index].amount++
+      }else{
+         BaseMonitor.queue.push(obj)
+      }
    }
    static queueUpload(){
       // 错误上报
@@ -24,7 +32,8 @@ class BaseMonitor {
       this.error_col = 0
       this.error_extra = ''
       this.isTest = true
-
+      this.amount = 0
+      this.hash = ''
       this.app_id = '114514114514abc'
       if(BaseMonitor.deviceInfo == '')
          BaseMonitor.deviceInfo = DeviceInfo.getDeviceInfo()
@@ -38,9 +47,10 @@ class BaseMonitor {
          error_row : this.error_row,
          error_col : this.error_col,
          error_extra : this.error_extra,
+         hash: md5(this.error_info + this.error_url),
+         amount:1,
          user_id: localStorage.getItem('ps_markUv'),
          app_id:this.app_id,
-         amount:1,
          time:new Date()
       }
       if(isTest === true){

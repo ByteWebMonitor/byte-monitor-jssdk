@@ -1,3 +1,20 @@
+/**
+ * 查找obj数组内部 是否有obj的attrName与给定的相匹配
+ * @param {Object} obj 用于匹配的对象
+ * @param {String} attrName 匹配对象内部字段
+ * @returns 匹配正确，返回索引；匹配失败，返回-1
+ */
+Array.prototype.indexOfAttr = function(obj, attrName){
+    var index = -1
+    this.forEach((val, i)=>{
+        if(val[attrName]===obj[attrName]){
+            index = i
+            return
+        }
+    })
+    return index
+};
+
 /** 
  * 对Date的扩展，将 Date 转化为指定格式的String * 月(M)、日(d)、12小时(h)、24小时(H)、分(m)、秒(s)、周(E)、季度(q)
  * 可以用 1-2 个占位符 * 年(y)可以用 1-4 个占位符，毫秒(S)只能用 1 个占位符(是 1-3 位的数字) * eg: * (new

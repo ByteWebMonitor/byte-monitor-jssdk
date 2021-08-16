@@ -10,6 +10,7 @@
   "dependencies": {
     "axios": "^0.21.1",
     "cors": "^2.8.5",
+    "js-md5": "^0.7.3",
     "req-interceptor": "^1.0.0",
     "vue": "^2.6.11",
     "vue-dataac": "^2.0.9"

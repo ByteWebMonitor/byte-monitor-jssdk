@@ -10,12 +10,11 @@ class promiseError extends BaseMonitor {
 				if (!event || !event.reason) {
 					return;
 				}
-				console.log(event);
-				this.error_url = event.reason.config;
+				// console.log(event);
+				this.error_url = event.path.toString();
 				this.type = "promise_error";
 				this.error_info = event.reason;
-				// this.error_row = 0;
-				// this.error_col = 0;
+				// 当发生一个常规的错误（error）并且未被 try..catch 捕获
 				this.error_extra = "";
             this.recordError(this.isTest);
 			} catch (error) {
