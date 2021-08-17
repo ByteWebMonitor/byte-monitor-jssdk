@@ -12,6 +12,12 @@
 4.打包monitor
 >```npm run pack```
 
+### 普通用户如何使用产品
+只需引入js文件后添加
+```js
+new Monitor({app_id: ''})
+```
+
 ## 未知点
 1. resourceError和Error触发过程
 1. performance在"load"事件后timing依旧为负数
