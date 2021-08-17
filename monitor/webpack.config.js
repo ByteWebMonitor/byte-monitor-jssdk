@@ -4,7 +4,7 @@ module.exports = {
 	//mode:打包模式
 	mode: "production",
 	//entry:需要打包的文件
-	entry: "./monitor/index.js",
+	entry: "./monitor/sdk.js",
 	output: {
 		// filename:指定打包后js文件的名字
 		filename: "index.min.js",

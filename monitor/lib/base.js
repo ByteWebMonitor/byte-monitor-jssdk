@@ -43,14 +43,14 @@ class BaseMonitor {
       this.error_row = 0
       this.error_col = 0
       this.error_extra = ''
-      this.isTest = true
+      this.consoleError = params.consoleError
       this.amount = 0
       this.hash = ''
       this.app_id = '114514114514abc'
       if(BaseMonitor.deviceInfo == '')
          BaseMonitor.deviceInfo = DeviceInfo.getDeviceInfo()
    }
-   recordError(isTest){
+   recordError(){
       // 在测试模式下，会立即console出该错误
       let info = {
          type : this.type,
@@ -65,7 +65,7 @@ class BaseMonitor {
          app_id:this.app_id,
          time:new Date()
       }
-      if(isTest === true){
+      if(this.consoleError === true){
          console.log('%c捕获到 '+ this.type,'color:blue;');
          console.log(info)
       }

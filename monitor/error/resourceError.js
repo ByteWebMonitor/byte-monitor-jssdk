@@ -20,7 +20,7 @@ class resourceError extends BaseMonitor{
             this.error_url = target.src || target.href;
             this.error_extra = target
             // console.log(event);
-            this.recordError(this.isTest)
+            this.recordError()
          } catch (error) {
             console.log("资源加载收集异常",error);
         }

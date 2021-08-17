@@ -1,8 +1,4 @@
-/**
- * 页面监控
- */
 const pagePerformance = {
-
     getTiming() {
         try {
             if(!window.performance || !window.performance.timing){
@@ -24,17 +20,14 @@ const pagePerformance = {
             //【重要】页面加载完成的时间
             //【原因】这几乎代表了用户等待页面可用的时间
             times.loadPageTime = (t.loadEventEnd - t.navigationStart)
-
+            times.blankTime = (t.domLoading - t.navigationStart)
             return times;
-            
         } catch(e) {
             console.log(e)
         }
     },
 };
-
 export default pagePerformance;
-
 /*
             //解析dom树耗时
             times.analysisTime = (t.domComplete - t.domInteractive).toFixed(2);

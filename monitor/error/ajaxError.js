@@ -6,11 +6,12 @@ class AjaxError extends BaseMonitor {
 	registerError() {
       let origin = XMLHttpRequest.prototype.send;
       let _handleEvent = (event)=>{
-         // console.log(event);
+         console.log(event);
          if(!event || ! event.currentTarget || event.currentTarget.status==200) return
          this.type = "ajax_error"
-         
-         this.error_info = String(event.target.response)
+         // console.log('@');
+         // console.dir(event.currentTarget);
+         this.error_info = event.target.response
          var text = this.error_info
          // var text = /<pre>(.*)<\/pre>/.exec(this.error_info)[1]
          if(text !== '')
@@ -20,7 +21,7 @@ class AjaxError extends BaseMonitor {
             status: event.target.status,
             statusText: event.target.statusText           
          }
-         this.recordError(this.isTest)
+         this.recordError()
          // console.log(event);
       }
 		XMLHttpRequest.prototype.send = function() {

@@ -1,17 +1,14 @@
 import Vue from "vue";
 import App from "./App.vue";
-import Monitor from "../monitor/sdk";
+import Monitor from "../../monitor/sdk";
 Vue.config.productionTip = false;
 import axios from "axios";
-axios.defaults.baseURL = "http://127.0.0.1:3030";
+axios.defaults.baseURL = "http://127.0.0.1:3031";
 Vue.prototype.$ajax = axios;
 
 new Monitor({
-	// vue: Vue,
-	
-	isTest: true,
+	consoleError:true,
 	app_id:"abcdabcd",
-	reportUrl: "http://127.0.0.1:3030",
 });
 
 new Vue({

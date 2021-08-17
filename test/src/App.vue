@@ -36,7 +36,7 @@ export default {
 	},
 	created() {
 		this.$ajax
-			.post("api/success")
+			.post("/BuCunZai")
 			.then((response) => {
 				// console.log(response);
 			}).catch((response) => {

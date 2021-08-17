@@ -8,9 +8,13 @@ router.post("/api/uploadDevice", (req, res) => {
    res.send({data:"print ok"})
 })
 router.post("/api/uploadPerformance", (req, res) => {
-   console.log('/api/uploadResource');
+   console.log('/api/uploadPerformance');
    console.log(req.body)
    res.send({data:"print ok"})
+})
+router.post("/api/x", (req, res) => {
+  
+   res.status('404').send('s')
 })
 
 
