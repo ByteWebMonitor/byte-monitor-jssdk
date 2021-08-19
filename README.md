@@ -19,7 +19,7 @@ new Monitor({app_id: ''})
 ```
 
 ## 未知点
-1. resourceError和Error触发过程
+1. ❓❓Ajax有时无法提供完整错误信息
 1. performance在"load"事件后timing依旧为负数
 
 ### todo list
