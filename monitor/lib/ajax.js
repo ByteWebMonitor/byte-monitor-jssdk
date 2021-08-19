@@ -16,7 +16,7 @@ function ajax(options) {
    xhr.send(JSON.stringify(defaults.data));// send的参数是请求体；
 }
 export {ajax}
-
+   // onreadystatechange
    // xhr.onreadystatechange = function () {
    //    if(xhr.readyState===4&&/^2\d{2}$/.test(xhr.status)){
    //        defaults.success(JSON.parse(xhr.responseText))

@@ -11,17 +11,21 @@
 			<img src="http://funx.site/resource/junk/Arts/368.jpg" />
 		</div>
 	</body>
-	<script src="../monitor/dist/index.min.js"></script>
+	<!-- <script src="../monitor/dist/index.min.js"></script> -->
 	<script>
-		new Monitor({
-         vueError:false,
-         vue:null,
-			isTest: true,
-			app_id:"abcdabcd",
-			reportUrl: "http://127.0.0.1:3030",
-		});
-         var a = 1;
-         window.abcd = 1
-		   var a = b
+		// new Monitor({
+      //    vueError:false,
+      //    vue:null,
+		// 	isTest: true,
+		// 	app_id:"abcdabcd",
+		// 	reportUrl: "http://127.0.0.1:3030",
+		// });
+			// var a = b
+			// window.onerror = function(){
+			// 	console.log('!!!!!!!!!!')
+			// }
+			window.addEventListener('error',()=>{
+				console.log('222222222222222');
+			}, true)
 	</script>
 </html>

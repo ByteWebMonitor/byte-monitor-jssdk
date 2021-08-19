@@ -17,15 +17,15 @@ class BaseMonitor {
    }
    static queueUpload(){
       ajax({
-         url:'/uploadErrors',
+         url:'/errors/upload',
          data:BaseMonitor.queue,
       })
       ajax({
-         url:'/uploadPerformance',
+         url:'/performance/upload',
          data:JSON.parse(localStorage.getItem("page_performance")),
       })
       ajax({
-         url:'/uploadDevice',
+         url:'/device/upload',
          data:BaseMonitor.deviceInfo,
       })
       // 错误上报
