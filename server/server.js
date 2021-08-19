@@ -8,7 +8,7 @@ app.use(require("cors")());
 // app.use(express.json());
 
 app.use(require("./upload"))
-app.post("/api/uploadErrors", (req, res) => {
+app.post("/api/errors/upload", (req, res) => {
     console.log('/api/uploadErrors');
     console.log(req.body)
     res.send()

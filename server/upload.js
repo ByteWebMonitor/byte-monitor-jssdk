@@ -2,12 +2,12 @@ const express = require("express");
 const router = express.Router();
 
 
-router.post("/api/uploadDevice", (req, res) => {
+router.post("/api/device/upload", (req, res) => {
    console.log('/api/uploadDevice');
    console.log(req.body)
    res.send({data:"print ok"})
 })
-router.post("/api/uploadPerformance", (req, res) => {
+router.post("/api/performance/upload", (req, res) => {
    console.log('/api/uploadPerformance');
    console.log(req.body)
    res.send({data:"print ok"})

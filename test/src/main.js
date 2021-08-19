@@ -7,6 +7,7 @@ axios.defaults.baseURL = "http://127.0.0.1:3031";
 Vue.prototype.$ajax = axios;
 
 new Monitor({
+	testMode:true,
 	consoleError:true,
 	app_id:"abcdabcd",
 });
