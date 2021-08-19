@@ -17,7 +17,7 @@ class BaseMonitor {
    }
    static queueUpload(){
       ajax({
-         url:'/errors/upload',
+         url:'/error/upload',
          data:BaseMonitor.queue,
       })
       ajax({
