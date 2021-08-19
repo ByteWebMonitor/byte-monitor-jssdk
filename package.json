@@ -3,9 +3,8 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "serve": "vue-cli-service serve ",
+    "serve": "cd ./demo/vue_demo && vue-cli-service serve ",
     "api": "nodemon ./server/server.js",
-    "build": "vue-cli-service build",
     "pack": "npx  webpack  --config  ./monitor/webpack.config.js"
   },
   "dependencies": {

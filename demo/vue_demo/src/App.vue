@@ -15,7 +15,7 @@
 		<div v-for="str in datas" :key="str">
 			<img alt="Vue logo" src="./assets/logo.png" />
 			<HelloWorld msg="Welcome to Your Vue.js App" />
-			
+			a
 		</div>
 		
 	</div>

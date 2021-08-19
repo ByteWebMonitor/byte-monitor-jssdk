@@ -4,7 +4,7 @@
 >```npm run serve```
 
 2.运行普通项目的测试网页
->```./test/index.html```
+>```./demo/html_demo/index.html```
 
 3.运行本地后台（务必）
 >```npm run api```
