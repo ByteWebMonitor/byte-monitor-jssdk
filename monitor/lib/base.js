@@ -17,15 +17,15 @@ class BaseMonitor {
    }
    static queueUpload(){
       ajax({
-         url:'/error/upload',
+         url:BaseMonitor.baseUrl + '/error/upload',
          data:BaseMonitor.queue,
       })
       ajax({
-         url:'/performance/upload',
+         url:BaseMonitor.baseUrl + '/performance/upload',
          data:JSON.parse(localStorage.getItem("page_performance")),
       })
       ajax({
-         url:'/device/upload',
+         url:BaseMonitor.baseUrl + '/device/upload',
          data:BaseMonitor.deviceInfo,
       })
       // 错误上报
@@ -36,7 +36,7 @@ class BaseMonitor {
       // axios.post(this.reportUrl, JSON.parse(localStorage.getItem("page_performance")))
    }
    constructor(params){
-      this.reportUrl = params.reportUrl
+      this.baseUrl = params.baseUrl
       this.type = "noname_error";
       this.error_info = ''
       this.error_url = ''
@@ -47,6 +47,8 @@ class BaseMonitor {
       this.amount = 0
       this.hash = ''
       this.app_id = '114514114514abc'
+      if(BaseMonitor.baseUrl == '')
+         BaseMonitor.baseUrl = params.baseUrl
       if(BaseMonitor.deviceInfo == '')
          BaseMonitor.deviceInfo = DeviceInfo.getDeviceInfo()
    }
@@ -75,4 +77,5 @@ class BaseMonitor {
 }
 BaseMonitor.queue = []
 BaseMonitor.deviceInfo = ''
+BaseMonitor.baseUrl = ''
 export default BaseMonitor

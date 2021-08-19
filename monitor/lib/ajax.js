@@ -1,8 +1,8 @@
-import {baseUrl} from '../url'
+
 function ajax(options) {
    // 默认创建一个对象；
    let defaults = {
-       url:baseUrl + options.url,
+       url:options.url,
        type:"POST",
        async:true,
        cache:true,
