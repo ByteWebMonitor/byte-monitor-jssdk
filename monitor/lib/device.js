@@ -282,7 +282,7 @@ var DeviceInfo = (function() {
                 return fingerprint
             },
             // 浏览器信息
-            getBrowserInfo: function() {
+            getBrowserInfo: function(shortCut) {
                 var _this = this
                 MethodLibrary.matchInfoMap(_this)
 
@@ -529,7 +529,7 @@ var DeviceInfo = (function() {
                 if (_this.browser == 'Yandex') {
                     _this.engine = 'Blink'
                 }
-
+                if(shortCut) return _this.browser
                 return _this.browser + '（版本: ' + _this.browserVersion + '&nbsp;&nbsp;内核: ' + _this.engine + '）'
             }
         }
@@ -548,6 +548,7 @@ var DeviceInfo = (function() {
                     language: MethodLibrary.getLanguage(), // 当前使用的语言-国家
                     netWork: MethodLibrary.getNetwork(), // 联网类型
                     orientation: MethodLibrary.getOrientationStatu(), // 横竖屏
+                    browser:MethodLibrary.getBrowserInfo(true),
                     browserInfo: MethodLibrary.getBrowserInfo(), // 浏览器信息
                     user_id: localStorage.getItem('ps_markUv'),
                     time:new Date()
