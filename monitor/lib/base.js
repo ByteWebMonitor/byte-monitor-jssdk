@@ -49,8 +49,12 @@ class BaseMonitor {
       this.app_id = '114514114514abc'
       if(BaseMonitor.baseUrl == '')
          BaseMonitor.baseUrl = params.baseUrl
-      if(BaseMonitor.deviceInfo == '')
-         BaseMonitor.deviceInfo = DeviceInfo.getDeviceInfo()
+      if(BaseMonitor.deviceInfo == ''){
+         var obj = DeviceInfo.getDeviceInfo()
+         obj.app_id = this.app_id
+         BaseMonitor.deviceInfo = obj
+      }
+         
    }
    recordError(){
       // 在测试模式下，会立即console出该错误

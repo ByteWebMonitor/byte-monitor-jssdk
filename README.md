@@ -1,5 +1,19 @@
+### 如何使用前端监控？
 
-### 运行
+只需引入js文件后添加
+```js
+new Monitor({
+	app_id: "",
+	baseUrl: "", //上传数据的Url
+	vue: null, //如果需要Vue报错，请传入Vue对象
+});
+```
+
+
+
+前往[GitHub](https://github.com/ByteWebMonitor/byte-monitor-jssdk)下载测试范例
+
+### 测试范例运行
 1.运行Vue项目的测试网页
 >```npm run serve```
 
@@ -11,20 +25,6 @@
 
 4.打包monitor
 >```npm run pack```
-
-### 普通用户如何使用产品
-只需引入js文件后添加
-```js
-new Monitor({app_id: ''})
-```
-
-## 未知点
-1. ❓❓Ajax有时无法提供完整错误信息
-1. performance在"load"事件后timing依旧为负数
-
-### todo list
-1. **更详细的报错信息**
-1. 正则过滤axios的消息
 
 
 

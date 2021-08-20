@@ -9,7 +9,7 @@ module.exports = {
 		// filename:指定打包后js文件的名字
 		filename: "index.min.js",
 		//path:指定打包后的文件放在那里
-		path: path.resolve(__dirname, "dist"),
+		path: path.resolve(__dirname, ""),
 	},
 // 	module: {        
 // 		rules: [

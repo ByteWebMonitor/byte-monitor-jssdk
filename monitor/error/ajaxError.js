@@ -7,8 +7,8 @@ class AjaxError extends BaseMonitor {
       let origin = XMLHttpRequest.prototype.send;
       let _handleEvent = (event)=>{
 
-         // if(!event || ! event.currentTarget || event.currentTarget.status==200) return
-         if(!event || ! event.currentTarget.response) return
+         // if(!event || ! event.currentTarget ) return
+         if(!event || ! event.currentTarget.response || event.currentTarget.status==200) return
          console.log(event);
          this.type = "ajax_error"
          // console.log('@');
