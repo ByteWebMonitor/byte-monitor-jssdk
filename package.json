@@ -1,12 +1,11 @@
 {
   "name": "byte-monitor-jssdk",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": false,
   "description": "Monitor errors in front-end",
-  "main": "./monitor/dist/index.min.js",
-  "readmeFilename": "./monitor/README.md",
+  "main": "./monitor/dist/index.js",
   "scripts": {
-    "serve": "cd ./demo/vue_demo && vue-cli-service serve ",
+    "serve": "cd ./demo/vue_demo && npm run serve ",
     "api": "nodemon ./server/server.js",
     "pack": "npx  webpack  --config  ./monitor/webpack.config.js"
   },

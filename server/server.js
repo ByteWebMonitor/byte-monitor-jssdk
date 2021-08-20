@@ -1,60 +1,21 @@
 const express = require("express");
 const app = express();
-var bodyParser = require('body-parser')
+var bodyParser = require("body-parser");
 // app.use(bodyParser.urlencoded({ extended: false }))
 
-app.use(bodyParser.json())
+app.use(bodyParser.json());
 app.use(require("cors")());
 // app.use(express.json());
 
-app.use(require("./upload"))
+app.use(require("./upload"));
 app.post("/api/error/upload", (req, res) => {
-    console.log('/api/uploadErrors');
-    console.log(req.body)
-    res.send()
- })
-app.listen(3031,'0.0.0.0', () => {
-   console.log("success");
+	console.log("/api/uploadErrors");
+	console.log(req.body);
+	res.send();
 });
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+app.listen(3031, "0.0.0.0", () => {
+	console.log("success");
+});
 
 
 // Array.prototype.hasString = function(e){
@@ -125,8 +86,7 @@ app.listen(3031,'0.0.0.0', () => {
 //             return obj;
 //          }
 //          //判断某个元对象的父级，是不是根级祖先，返回true
-//          
-
+//
 
 //          //
 //          (async function() {

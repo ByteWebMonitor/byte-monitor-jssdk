@@ -8,9 +8,9 @@ import "./lib/extends";
 import { markUser, markUv } from "./lib/extends";
 const DefaultUrl = "DefaultUrl"
 /**
- * Book类，代表一个书本.
+ * 
  * @constructor
- * @param {string} title - 书本的标题.
+ * @param {string} title 
  */
 class Monitor {
 	constructor(options) {
