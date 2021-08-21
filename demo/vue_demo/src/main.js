@@ -1,6 +1,6 @@
 import Vue from "vue";
 import App from "./App.vue";
-import Monitor from '../../../monitor/index'
+import {} from 'byte-monitor-jssdk'
 // import Monitor from "../../../monitor/sdk";
 Vue.config.productionTip = false;
 import axios from "axios";
@@ -12,7 +12,7 @@ new Monitor({
 	baseUrl:"http://127.0.0.1:3031/api",
 	testMode:true,
 	consoleError:true,
-	app_id:"fun",
+	app_id:"abcdabcd",
 });
 
 new Vue({

@@ -1,13 +1,13 @@
 ### 简介
 
-`byte-monitor-jssdk`是一款无侵入式的前端监控工具，可以让你轻松监控页面异常、用户性能数据以及设备数据
+`byte-monitor-jssd`是一款无侵入式的前端监控工具，可以让你轻松监控页面异常、用户性能数据以及设备数据
 
 ### 如何使用前端监控？
 
 支持 ES6, AMD 规范及 script 标签，你可以选择一种方式引入：
 
 ```js
-<script src="../node_modules/byte-monitor-jssdk/monitor/jssdk-0.1.3.min.js"></script>
+<script src="../node_modules/byte-monitor-jssdk/index.min.js"></script>
 
 import Monitor from "byte-monitor-jssdk";
 
@@ -26,7 +26,7 @@ new Monitor({
 {
 	vue: Vue  
 	// 如果需要监控Vue报错，请传入Vue对象，默认为undefined
-	baseUrl: "http://127.0.0.1:3031" 
+	baseUrl: "http:127.0.0.1:3031" 
 	// 如果需要自定义上报api，参考下面的数据字段详解，默认为配套后端api
 	testMode:true
 	// 会即时上报数据，默认为关闭页面延时上报，默认为false
