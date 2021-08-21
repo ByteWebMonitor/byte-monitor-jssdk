@@ -47,7 +47,6 @@ class Monitor {
 		}
 	}
 }
-window.Monitor = Monitor;
 export default Monitor;
 
 //

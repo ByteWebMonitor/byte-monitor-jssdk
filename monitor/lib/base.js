@@ -46,7 +46,7 @@ class BaseMonitor {
       this.consoleError = params.consoleError
       this.amount = 0
       this.hash = ''
-      this.app_id = '114514114514abc'
+      this.app_id = params.app_id
       if(BaseMonitor.baseUrl == '')
          BaseMonitor.baseUrl = params.baseUrl
       if(BaseMonitor.deviceInfo == ''){

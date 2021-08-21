@@ -1,16 +1,15 @@
 {
   "name": "byte-monitor-jssdk",
-  "version": "0.1.1",
+  "version": "0.1.3",
   "private": false,
   "description": "Monitor errors in front-end",
-  "main": "./monitor/dist/index.js",
+  "main": "./monitor/index.js",
   "scripts": {
     "serve": "cd ./demo/vue_demo && npm run serve ",
     "api": "nodemon ./server/server.js",
     "pack": "npx  webpack  --config  ./monitor/webpack.config.js"
   },
   "dependencies": {
-    "byte-monitor-jssdk": "^0.1.0",
     "js-md5": "^0.7.3"
   },
   "devDependencies": {
